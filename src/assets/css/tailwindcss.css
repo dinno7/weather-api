@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply transition
+    duration-300
+    p-2
+    px-3
+    rounded-lg
+    text-center
+    font-mono font-bold;
+  }
+  .btn-blue {
+    @apply shadow-xl shadow-blue-400/30
+    dark:shadow-blue-400/20
+    bg-blue-200
+    text-blue-900
+    hover:bg-blue-300;
+  }
+}
