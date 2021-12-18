@@ -186,7 +186,7 @@ export default {
       description: "",
     });
     const iconImgTag = ref(null);
-    const imgLink = ref("src/assets/imgs/city.jpg");
+    const imgLink = ref("/imgs/city.jpg");
 
     // //Functions:
     const getData = async (e) => {
